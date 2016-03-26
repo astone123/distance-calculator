@@ -14,9 +14,9 @@ Download a zip of the project and extract to your local directory.
 ##Usage
 Run DistanceCalculator from command prompt or terminal. DistanceCalculator.jar takes three parameters.
 
-1.) File name of input file. The input is a text file and should contain addresses or zip codes separated by line breaks.
-2.) Address to compare to. This is the address or zip code that your input file addresses will be compared to.
-3.) Google Distance Matrix API Key. You will need to create a project with Google Matrix API to get a key [here](https://developers.google.com/maps/documentation/distance-matrix/).
+1. File name of input file. The input is a text file and should contain addresses or zip codes separated by line breaks.
+2. Address to compare to. This is the address or zip code that your input file addresses will be compared to.
+3. Google Distance Matrix API Key. You will need to create a project with Google Matrix API to get a key [here](https://developers.google.com/maps/documentation/distance-matrix/).
 
 Execution should look like this:
 
