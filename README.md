@@ -8,11 +8,11 @@ Author: Adam Stone [@theaveragestone](http://www.twitter.com/theaveragestone)
 ## What Does DistanceCalculator do?
 DistanceCalculator is a program that allows you to calculate the distance in miles (rounded to nearest 100th of a mile) between addresses using Google's Distance Matrix API.
 
-##Installation
-Download a zip of the project and extract to your local directory.
+## Installation
+Download a zip of the project and extract to your local directory or clone this repository.
 
-##Usage
-Run DistanceCalculator from command prompt or terminal. DistanceCalculator.jar takes three parameters.
+## Usage
+Run DistanceCalculator from command prompt (Windows) or terminal (OSX/Linux). DistanceCalculator.jar takes three parameters.
 
 1. File name of input file. The input is a text file and should contain addresses or zip codes separated by line breaks.
 2. Address to compare to. This is the address or zip code that your input file addresses will be compared to.
@@ -23,7 +23,7 @@ Execution should look like this:
 ```ruby
 java -jar DistanceCalculator.jar input.txt 21345 API_KEY
 ```
-Be sure to replace 'input.txt' with your input file name, '21345' with your desired address or zip code, and 'API_KEY' with your API Key.
+Be sure to replace 'input.txt' with your input file name, '21345' with your desired address or zip code, and 'API_KEY' with your Google Maps Distance Matrix API Key.
 
 When the program is finished running, the data will be written to an output text file named '*inputfilenameOutput.txt*' in the project folder.
 
