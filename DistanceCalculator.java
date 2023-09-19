@@ -1,3 +1,4 @@
+import io.github.pixee.security.BoundedLineReader;
 import java.io.*;
 import java.math.RoundingMode;
 import java.net.HttpURLConnection;
@@ -78,7 +79,7 @@ public class DistanceCalculator {
                                 BufferedReader br = new BufferedReader(new InputStreamReader(c.getInputStream()));
                                 StringBuilder sb = new StringBuilder();
                                 String line;
-                                while ((line = br.readLine()) != null) {
+                                while ((line = BoundedLineReader.readLine(br, 5_000_000)) != null) {
                                     sb.append(line + "\n");
                                 }
                                 br.close();
